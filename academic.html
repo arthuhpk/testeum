@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formação Acâdemica</title>
+    <style>
+        body{
+            margin: 0;
+            background-color: antiquewhite;
+            font-family: inherit;
+        }
+
+        .container{
+            display: grid;
+        }
+
+        header{
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: blue;
+        }
+
+        .menu{
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        ul{
+            list-style-type: none;
+            color: blue;
+        }
+
+        a,
+        a:link{
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid blue;
+        }
+
+        li{
+            float: left;
+        }
+
+        a:hover{
+            background-color: blue;
+            color: white;
+        }
+
+        footer{
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: blue;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="container">
+        <h1 style="color: white; text-align: center;">Formação acâdemica</h1>
+        <br>
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">Sobre mim</a></li>
+            <li><a href="academic.html">Formação Acadêmica</a></li>
+            <li><a href="port.html">Portfólio</a></li>
+            <li><a href="contato.html">contato</a></li>
+        </ul>
+    </nav>
+    <br>
+    <br>
+    <h2 style="font-family: 'Courier New', Courier, monospace;">Formação Acâdemica</h2>
+    <p>Atualmente cursando ADS(Análise de desenvolvimento de sistemas) pela UNINTER;</p>
+    <p>Cursando o curso de inglês 100% online pela UNINTER;</p>
+
+    <footer class="container">
+        <h1>Desenvolvido para fins educacionais</h1>
+    </footer>
+
+</body>
+</html>
